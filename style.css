@@ -1,0 +1,256 @@
+.home {
+    background-image: url(main.webp);
+    margin-top: -12px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid {
+    background-color: #bdc9c9;
+    position: fixed;
+    margin-top: 50px;
+    font-family: Noto Sans, sans-serif;
+    z-index: 1100;
+}
+
+.navbar-brand {
+    margin-top: 3px;
+    padding-right: 25px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.d-flex {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    box-shadow: solid 0px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 33.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.container a {
+    font-family: monospace;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.container a button {
+    color: white;
+    background-color: rgba(255, 227, 227, 0.07);
+    border: 1px solid rgba(222, 208, 208, 0.54);
+    font-size: 20px;
+    width: 140px;
+    height: 6.5vh;
+}
+
+.container a button:hover {
+    transition: 0.4s;
+}
+
+/*End home page*/
+
+/*Start islam*/
+.islam {
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.islam h1 {
+    font-size: 30px;
+    font-weight: 100;
+    color: brown;
+    text-align: center;
+}
+
+.islam p {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.islam .text h2 {
+    font-size: 28px;
+    padding-top: 20px;
+    text-align: center;
+    color: brown;
+}
+
+.islam .text p {
+    padding-bottom: 20px;
+}
+
+/*End islam*/
+/*Start salat*/
+.salat {
+    background-color: #E5e8ea;
+    font-family: "Bellota Text", sans-serif;
+}
+
+.salat h1 {
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.salat p {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.salat ol {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.salat ol li {
+    padding-top: 4px;
+}
+
+/*End salat*/
+/*Start adhkar*/
+.adhkar {
+    font-family: "Bellota Text", sans-serif;
+}
+
+.adhkar h2 {
+    font-size: 27px;
+    color: brown;
+    text-align: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.adhkar p {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.adhkar h1,
+.adhkar h2 {
+    text-align: center;
+}
+
+.adhkar h3 {
+    padding-left: 20px;
+}
+
+.adhkar blockquote {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: brown;
+}
+
+.adhkar .duas .card {
+    width: 70%;
+    box-shadow: 10px 0 80px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.adhkar .duas h1,
+.adhkar .duas p,
+.duas blockquote {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adhkar .duas h1 {
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+.adhkar .duas p {
+    padding-bottom: 7px;
+}
+
+.adhkar .duas blockquote {
+    padding-top: 2px;
+}
+
+/*End adhkar*/
+/*Start footer*/
+footer {
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+
+footer .social {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+footer .social a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer .social a:hover {
+    color: #00baff;
+    transition: 0.4s;
+}
+
+footer .social p {
+    font-size: 13.5px;
+    color: wheat;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+footer h1 {
+    color: #afbbd4;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+footer h2 {
+    font-size: 9.2px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-align: end;
+}
+
+
+footer h2 i {
+    color: white;
+    padding-right: 2px;
+}
+
+/*End footer*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b5a686;
+}
